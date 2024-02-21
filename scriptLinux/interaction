@@ -1,0 +1,22 @@
+#Ci-dessous j'affiche la phrase suivante 
+echo "Bonjour , comment vous vous appelez vous ?"
+#J'execute la fonction read , elle permet d'attendre que l'user tape un evaleur et va lire et sauvegarder cette valeur 
+read
+#Ci dessous , grace a echo , j'affiche ce que l'user a tapé 
+echo "Bonjour $REPLY"
+# Ci dessous je vais creer une variable "prenom" et lui attribue la valeur $REPLY
+prenom=$REPLY
+#ci dessous j'affiche la phrase suivante 
+echo "Quel age as-tu?"
+read 
+age=$REPLY
+#Pour afficher la valeur d'une variable, on fait $ suivi du nom de la variable
+echo "Bonjour $prenom , tu as $age ans "
+
+if [ $age >= 18 ]
+then
+	echo "Vous etes Majeur"
+else
+then
+	echo "Vous etes mineurs"
+	

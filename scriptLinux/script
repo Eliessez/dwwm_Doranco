@@ -1,0 +1,23 @@
+mkdir Thi Alb 
+cd Thi
+mkdir Trav Pho
+cd Trav
+mkdir Cli1 Cli2 Cli3
+cd Cli1
+touch C1.txt
+cd .. 
+cd Cli2
+touch C2.txt
+cd .. 
+cd Cli3
+touch C3.txt
+cd ../../..
+cd Alb 
+mkdir Comp Imag 
+cd Comp 
+mkdir 2011 2012 2013 2014 
+touch 2011/2011
+touch 2012/2012
+touch 2013/2013
+touch 2014/2014
+  
